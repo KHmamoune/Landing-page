@@ -113,3 +113,28 @@ button {
     font-family: sans-serif;
     text-align: right;
 }
+
+.call {
+    color: #F9F1F8;
+    font-size: 24px;
+    background-color: #3882F6;
+    padding: 30px;
+    margin-inline: 150px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.call-title {
+    margin: 0px;
+}
+
+.call-txt {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.call-btn {
+    border: 2px solid #F9F1F8;
+    border-radius: 5px;
+}
