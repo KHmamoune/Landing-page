@@ -23,6 +23,10 @@ button {
     margin-top: 10px;
 }
 
+div {
+    display: block;
+}
+
 .header {
     font-size: 22px;
     color: #F9F1F8;
@@ -57,9 +61,39 @@ button {
 
 .image {
     color: white;
-    background-color: gray;
+    background-color: #6d747d;
+    border-radius: 8px;
     display: flex;
-    padding: 60px;
-    height: 100px;
-    width: 770px;
+    flex: 0 0 auto;
+    height: 250px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #1F2937;
+    font-size: 36px;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.box {
+    padding: 25px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.illu {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    flex-grow: 1;
 }
